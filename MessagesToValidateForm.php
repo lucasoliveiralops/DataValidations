@@ -9,7 +9,7 @@ class MessagesToValidateForm
     'isNumeric' => 'O campo NAME_CAMPO não é numérico!',
     'hasMinLenght' => 'O campo NAME_CAMPO não tem a quantidade mínima de caracteres!',
     'hasMaxLenght' => 'O campo NAME_CAMPO tem mais que a quantidade máxima de caracteres!',
-    'isArrayMultidimensional' => 'O campo NAME_CAMPO não é um array multidimensional.'
+    'isArrayMultidimensional' => 'O campo NAME_CAMPO não é um array/lista multidimensional.'
   );
 
   public static function getErrorMessage($method, $nameCampo)
